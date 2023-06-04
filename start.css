@@ -1,0 +1,231 @@
+@media  (max-width:600px){
+  
+    .content{
+      text-align: left;
+      padding-top: 100px;;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 1000px;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: left;
+    
+    }
+
+    .did{
+      background: #000;
+    }
+}
+
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg, black, #5d5b5bee, black);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  width: 100%;
+  height: 95vh;
+position: relative;
+
+
+
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+ 
+  .gradient-background{
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+ 
+.content{
+  text-align: left;
+  padding-top: 450px;
+  
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1000px;
+padding-bottom: 10px;
+width: 100%;
+justify-content: left;
+
+}
+.bar{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.hey{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 30px;
+  
+}
+.Allen{
+  font-family: 'Raleway', sans-serif;
+ 
+  text-shadow:  #141414ee;
+  font-size: 4.5rem;
+  width:100%;
+padding-left: 30px;
+color: #000;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 30px;
+}
+
+
+
+.about{
+  padding-top: 10px;
+  text-align: center;
+
+  text-shadow: 2px 2px 8px white;
+}
+
+
+.para{
+ text-align: center;
+
+font-size: 1.3rem;
+
+  
+}
+.did{
+ 
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2.5rem;
+
+  background-image: url(stai_dark_railing_201608_1366x768.jpg);
+  height: 60vh;
+  color: aliceblue;
+  background-attachment: fixed;
+
+
+}
+
+#port{
+  height: 100vh;
+}
+
+
+.lis{
+
+ 
+  background: #202020;
+
+  width:100%;
+  border-radius: 16px;
+  padding: 10px;
+  color: white;
+  z-index: 1;
+  
+}
+.lis + .lis {
+	margin-top: 1rem;
+}
+.mas{
+  position: relative;
+}
+#Resume {
+  background-image: url(347201-download-white-background-hd-1920x1271-download.jpg);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 30px ;
+  background-attachment: fixed;
+  color: 	#484848;
+ 
+  
+}
+
+#Resume h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 800;
+color: #000;
+}
+
+
+
+.mas ::before{
+  content: '';
+	width: 0.5rem;
+    
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0%;
+
+	background: 	#606060	;
+	border-radius: 190px;
+}
+.dates{
+  text-align: right;
+}
+
+
+.grid-container{
+  display: grid;
+
+   
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  padding-top: 25px;
+
+}
+.footer{
+  background-color: white;
+}
+.comp{
+  text-align: center;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.divide
+{padding: 15px;
+box-shadow: 2px 2px 16px #050505ee inset;
+}
